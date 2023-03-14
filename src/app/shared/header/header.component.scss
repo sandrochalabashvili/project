@@ -1,0 +1,16 @@
+.btn{
+    a{
+        color: white;
+    }
+    padding: 15px 20px;
+    text-decoration: none;  
+    border: 1px solid;
+    font-family: montserrat;
+    cursor: pointer;
+    a:hover{
+        color: red($color: #000000);
+    }
+}
+.spaser{
+    flex: 1 1 ;
+}
