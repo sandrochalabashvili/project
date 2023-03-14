@@ -11,6 +11,9 @@ import { AboutComponent } from './view/about/about.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ContactComponent } from './view/contact/contact.component';
+import { MenuComponent } from './view/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -19,13 +22,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NotfoundComponent,
     AboutComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
