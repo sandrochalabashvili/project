@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {MatToolbarModule} from '@angular/material/toolbar'; 
+import { MatToolbarModule} from '@angular/material/toolbar'; 
 
 import { HomepageComponent } from './view/homepage/homepage.component';
 import { NotfoundComponent } from './view/notfound/notfound.component';
@@ -24,7 +24,8 @@ import { MenuComponent } from './view/menu/menu.component';
     HeaderComponent,
     FooterComponent,
     ContactComponent,
-    MenuComponent
+    MenuComponent,
+    
   ],
   imports: [
     BrowserModule,
