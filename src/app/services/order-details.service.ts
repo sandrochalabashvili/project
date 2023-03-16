@@ -6,9 +6,6 @@ import { Injectable } from '@angular/core';
 export class OrderDetailsService {
 
   constructor() { }
-
-  // fooddetails 
-  
   foodDetails = [
     {
       id:1,
@@ -54,7 +51,5 @@ export class OrderDetailsService {
     }
   ]
 
-
-  
 
 }

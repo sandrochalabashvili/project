@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ContactComponent } from './view/contact/contact.component';
 import { MenuComponent } from './view/menu/menu.component';
+import { MenupageComponent } from './view/menupage/menupage.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { MenuComponent } from './view/menu/menu.component';
     FooterComponent,
     ContactComponent,
     MenuComponent,
+    MenupageComponent,
     
   ],
   imports: [
